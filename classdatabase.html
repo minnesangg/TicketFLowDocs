@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TicketFlow: Class List</title>
+<title>TicketFlow: database Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -76,7 +76,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('annotated.html',''); initResizable(true); });
+$(function(){initNavTree('classdatabase.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -102,21 +102,86 @@ $(function(){initNavTree('annotated.html',''); initResizable(true); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Class List</div></div>
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classdatabase-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">database Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here are the classes, structs, unions and interfaces with brief descriptions:</div><div class="directory">
-<table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classDatabase.html" target="_self">Database</a></td><td class="desc"><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> schema for airline ticket management </td></tr>
-<tr id="row_1_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classLogin.html" target="_self">Login</a></td><td class="desc">Handles the login functionality of the application. It provides a user interface for entering a password and verifies it against a stored hash. If the password is correct, it allows access to the main application </td></tr>
-<tr id="row_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classMainWindow.html" target="_self">MainWindow</a></td><td class="desc">Main window of the application. It provides the user interface for the main functionality of the application. Here are the buttons for navigating the application: </td></tr>
+
+<p>Схема базы данных для управления авиабилетами  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="database_8h_source.html">database.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a35ec480ed529a9d092a7ebc5472b767f" id="r_a35ec480ed529a9d092a7ebc5472b767f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ec480ed529a9d092a7ebc5472b767f">database</a> ()</td></tr>
+<tr class="separator:a35ec480ed529a9d092a7ebc5472b767f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- directory -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Схема базы данных для управления авиабилетами </p>
+<p>Включает таблицы:</p><ul>
+<li>Passengers</li>
+<li>Planes</li>
+<li>Tickets</li>
+</ul>
+<p>Схема базы данных: </p><pre class="fragment">* Table Passengers {
+*   id SERIAL [pk]
+*   first_name VARCHAR(100)
+*   last_name VARCHAR(100)
+*   birth_date DATE
+*   email VARCHAR(100)
+*   phone_number VARCHAR(20)
+* }
+*
+* Table Planes {
+*   id SERIAL [pk]
+*   model VARCHAR(100)
+*   capacity INT
+*   airline VARCHAR(100)
+* }
+*
+* Table Tickets {
+*   id SERIAL [pk]
+*   passenger_id INT [ref: &gt; Passengers.id]
+*   plane_id INT [ref: &gt; Planes.id]
+*   departure_city VARCHAR(100)
+*   arrival_city VARCHAR(100)
+*   departure_time TIMESTAMP
+*   arrival_time TIMESTAMP
+*   seat_number VARCHAR(10)
+*   price DECIMAL(10, 2)
+* }
+* </pre><p><img src="/home/extra/programming/courseWork/TicketFlow/DBschema.png" alt="Database Schema" class="inline"/> </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a35ec480ed529a9d092a7ebc5472b767f" name="a35ec480ed529a9d092a7ebc5472b767f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ec480ed529a9d092a7ebc5472b767f">&#9670;&#160;</a></span>database()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">database::database </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="database_8h_source.html">database.h</a></li>
+<li><a class="el" href="database_8cpp.html">database.cpp</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="classdatabase.html">database</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

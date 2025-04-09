@@ -1,10 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: "cglmosuv~",
-  1: "lm",
+  0: "cdglmosuv~",
+  1: "dlm",
   2: "u",
-  3: "lm",
-  4: "cglmosv~",
+  3: "dlm",
+  4: "cdglmosv~",
   5: "su"
 };
 

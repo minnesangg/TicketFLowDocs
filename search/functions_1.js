@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getpasswordhash_0',['getPasswordHash',['../classLogin.html#a09736f530d71fa883757c026d45df2d6',1,'Login']]]
+  ['database_0',['Database',['../classDatabase.html#a4703c80e6969d33565ea340f768fdadf',1,'Database']]]
 ];
