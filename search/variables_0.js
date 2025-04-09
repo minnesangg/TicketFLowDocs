@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['db_0',['db',['../classMainWindow.html#a9552571fab55c373ecd3a5e146fcf644',1,'MainWindow::db'],['../classDatabase.html#aea64d7d99483faec8f049cdd817bb693',1,'Database::db']]]
+  ['arrivalcity_0',['arrivalCity',['../classTicket.html#a50587c7c9e28e3e1ce44eec359d14099',1,'Ticket']]],
+  ['arrivaltime_1',['arrivalTime',['../classTicket.html#a47aaf183dfe4cc0071746b3f90bead34',1,'Ticket']]]
 ];

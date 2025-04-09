@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_7edatabase_0',['~Database',['../classDatabase.html#a84d399a2ad58d69daab9b05330e1316d',1,'Database']]],
-  ['_7elogin_1',['~Login',['../classLogin.html#a659bc7233ec12c79b9fa523c1734fbbc',1,'Login']]],
-  ['_7emainwindow_2',['~MainWindow',['../classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['ui_0',['Ui',['../namespaceUi.html',1,'']]],
+  ['ui_1',['ui',['../classLogin.html#a55fa3b19085f864462451d3dd9efd2e1',1,'Login::ui'],['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui'],['../classManager.html#a622ddccdbe63c16b82ed6827e2dbc894',1,'Manager::ui']]]
 ];

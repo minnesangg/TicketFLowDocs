@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['ui_0',['ui',['../classLogin.html#a55fa3b19085f864462451d3dd9efd2e1',1,'Login::ui'],['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui']]]
+  ['passengerid_0',['passengerID',['../classTicket.html#a5ee60cff08f39739a7ea1277633536e1',1,'Ticket']]],
+  ['planeid_1',['planeID',['../classTicket.html#aa3c05acc92a5c3ddb389df6357584fcc',1,'Ticket']]],
+  ['price_2',['price',['../classTicket.html#a7e5a1db2284e3c701e6835d8a2dbb252',1,'Ticket']]]
 ];

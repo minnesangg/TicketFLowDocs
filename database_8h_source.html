@@ -131,7 +131,7 @@ $(function(){initNavTree('database_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;QSqlQuery&gt;</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;QComboBox&gt;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;ticket.h&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;<a class="code" href="ticket_8h.html">ticket.h</a>&quot;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="foldopen" id="foldopen00071" data-start="{" data-end="};">
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classDatabase.html">   71</a></span><span class="keyword">class </span><a class="code hl_class" href="classDatabase.html">Database</a></div>
@@ -147,7 +147,7 @@ $(function(){initNavTree('database_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classDatabase.html#aa1efe245b576bb89b95cf05ff2146130">getPassengerIdFromComboBoxes</a>(QComboBox* nameComboBox, QComboBox* lastNameComboBox);</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDatabase.html#aa7914e3782e8cf18bfd1ea531f57e249">addTicketToDatabase</a>(<span class="keyword">const</span> Ticket&amp; ticket);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDatabase.html#aa7914e3782e8cf18bfd1ea531f57e249">addTicketToDatabase</a>(<span class="keyword">const</span> <a class="code hl_class" href="classTicket.html">Ticket</a>&amp; ticket);</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDatabase.html#a4aabe56b6229be499e11690d11465365">connectToDB</a>();</div>
@@ -166,6 +166,8 @@ $(function(){initNavTree('database_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassDatabase_html_aa7914e3782e8cf18bfd1ea531f57e249"><div class="ttname"><a href="classDatabase.html#aa7914e3782e8cf18bfd1ea531f57e249">Database::addTicketToDatabase</a></div><div class="ttdeci">bool addTicketToDatabase(const Ticket &amp;ticket)</div><div class="ttdoc">Adds a ticket to the Tickets table in the database.</div><div class="ttdef"><b>Definition</b> database.cpp:100</div></div>
 <div class="ttc" id="aclassDatabase_html_aea64d7d99483faec8f049cdd817bb693"><div class="ttname"><a href="classDatabase.html#aea64d7d99483faec8f049cdd817bb693">Database::db</a></div><div class="ttdeci">QSqlDatabase db</div><div class="ttdoc">Database connection instance.</div><div class="ttdef"><b>Definition</b> database.h:141</div></div>
 <div class="ttc" id="aclassDatabase_html_af32f5800b77f4ed73a775f9330b15959"><div class="ttname"><a href="classDatabase.html#af32f5800b77f4ed73a775f9330b15959">Database::loadComboBoxData</a></div><div class="ttdeci">bool loadComboBoxData(QComboBox *comboBox, const QString &amp;table, const QString &amp;column)</div><div class="ttdoc">Loads data into a combo box from a specified table and column.</div><div class="ttdef"><b>Definition</b> database.cpp:59</div></div>
+<div class="ttc" id="aclassTicket_html"><div class="ttname"><a href="classTicket.html">Ticket</a></div><div class="ttdoc">This file defines the Ticket class, which represents a flight ticket in the system.</div><div class="ttdef"><b>Definition</b> ticket.h:58</div></div>
+<div class="ttc" id="aticket_8h_html"><div class="ttname"><a href="ticket_8h.html">ticket.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

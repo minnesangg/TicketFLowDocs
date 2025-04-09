@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['savepassword_0',['savePassword',['../classLogin.html#a9a177c6edd37d9878cc14f7f35c0a0b6',1,'Login']]],
-  ['selectdata_1',['selectData',['../classDatabase.html#a4134ad60237818b09cee4941fb3b0704',1,'Database']]],
-  ['stackedwidget_2',['stackedWidget',['../classLogin.html#a27c1063cc731cd71ca04b2a2ef17a7ce',1,'Login']]]
+  ['passengerid_0',['passengerID',['../classTicket.html#a5ee60cff08f39739a7ea1277633536e1',1,'Ticket']]],
+  ['planeid_1',['planeID',['../classTicket.html#aa3c05acc92a5c3ddb389df6357584fcc',1,'Ticket']]],
+  ['price_2',['price',['../classTicket.html#a7e5a1db2284e3c701e6835d8a2dbb252',1,'Ticket']]]
 ];
