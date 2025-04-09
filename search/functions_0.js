@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['checkpassword_0',['checkPassword',['../classLogin.html#ae5dde3cc05e0a5d9cb8d6532c36e9374',1,'Login']]]
+  ['addtickettodatabase_0',['addTicketToDatabase',['../classDatabase.html#aa7914e3782e8cf18bfd1ea531f57e249',1,'Database']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_0',['ui',['../classLogin.html#a55fa3b19085f864462451d3dd9efd2e1',1,'Login::ui'],['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui']]]
+  ['manager_0',['manager',['../classMainWindow.html#a96a54dc084d2fa4e41d3160f75a22233',1,'MainWindow']]]
 ];

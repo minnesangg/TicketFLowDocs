@@ -104,6 +104,8 @@ $(function(){initNavTree('classDatabase.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classDatabase-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Database Class Reference</div></div>
 </div><!--header-->
@@ -117,16 +119,45 @@ $(function(){initNavTree('classDatabase.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4703c80e6969d33565ea340f768fdadf" id="r_a4703c80e6969d33565ea340f768fdadf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4703c80e6969d33565ea340f768fdadf">Database</a> ()</td></tr>
+<tr class="memdesc:a4703c80e6969d33565ea340f768fdadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of <a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> class.  <br /></td></tr>
 <tr class="separator:a4703c80e6969d33565ea340f768fdadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d399a2ad58d69daab9b05330e1316d" id="r_a84d399a2ad58d69daab9b05330e1316d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84d399a2ad58d69daab9b05330e1316d">~Database</a> ()</td></tr>
+<tr class="memdesc:a84d399a2ad58d69daab9b05330e1316d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="separator:a84d399a2ad58d69daab9b05330e1316d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4134ad60237818b09cee4941fb3b0704" id="r_a4134ad60237818b09cee4941fb3b0704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4134ad60237818b09cee4941fb3b0704">selectData</a> ()</td></tr>
+<tr class="memdesc:a4134ad60237818b09cee4941fb3b0704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all data from the Passengers table and outputs it to the debug console.  <br /></td></tr>
+<tr class="separator:a4134ad60237818b09cee4941fb3b0704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af32f5800b77f4ed73a775f9330b15959" id="r_af32f5800b77f4ed73a775f9330b15959"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af32f5800b77f4ed73a775f9330b15959">loadComboBoxData</a> (QComboBox *comboBox, const QString &amp;table, const QString &amp;column)</td></tr>
+<tr class="memdesc:af32f5800b77f4ed73a775f9330b15959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads data into a combo box from a specified table and column.  <br /></td></tr>
+<tr class="separator:af32f5800b77f4ed73a775f9330b15959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1efe245b576bb89b95cf05ff2146130" id="r_aa1efe245b576bb89b95cf05ff2146130"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1efe245b576bb89b95cf05ff2146130">getPassengerIdFromComboBoxes</a> (QComboBox *nameComboBox, QComboBox *lastNameComboBox)</td></tr>
+<tr class="memdesc:aa1efe245b576bb89b95cf05ff2146130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the passenger ID from the selected name and last name from combo boxes.  <br /></td></tr>
+<tr class="separator:aa1efe245b576bb89b95cf05ff2146130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7914e3782e8cf18bfd1ea531f57e249" id="r_aa7914e3782e8cf18bfd1ea531f57e249"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7914e3782e8cf18bfd1ea531f57e249">addTicketToDatabase</a> (const Ticket &amp;ticket)</td></tr>
+<tr class="memdesc:aa7914e3782e8cf18bfd1ea531f57e249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a ticket to the Tickets table in the database.  <br /></td></tr>
+<tr class="separator:aa7914e3782e8cf18bfd1ea531f57e249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a4aabe56b6229be499e11690d11465365" id="r_a4aabe56b6229be499e11690d11465365"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aabe56b6229be499e11690d11465365">connectToDB</a> ()</td></tr>
+<tr class="memdesc:a4aabe56b6229be499e11690d11465365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to the PostgreSQL database.  <br /></td></tr>
+<tr class="separator:a4aabe56b6229be499e11690d11465365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aea64d7d99483faec8f049cdd817bb693" id="r_aea64d7d99483faec8f049cdd817bb693"><td class="memItemLeft" align="right" valign="top">QSqlDatabase&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea64d7d99483faec8f049cdd817bb693">db</a></td></tr>
+<tr class="memdesc:aea64d7d99483faec8f049cdd817bb693"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> connection instance.  <br /></td></tr>
+<tr class="separator:aea64d7d99483faec8f049cdd817bb693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> schema for airline ticket management. </p>
-<p>Includes the following tables:</p><ul>
+<p>This class handles the connection to the database and facilitates the manipulation of data in the following tables:</p><ul>
 <li>Passengers</li>
 <li>Planes</li>
 <li>Tickets</li>
 </ul>
-<p><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> schema: </p><pre class="fragment">* Table Passengers {
+<dl class="section note"><dt>Note</dt><dd>The following schema is used in the database:</dd></dl>
+<pre class="fragment">* Table Passengers {
 *   id SERIAL [pk]
 *   first_name VARCHAR(100)
 *   last_name VARCHAR(100)
@@ -169,6 +200,200 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor of <a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> class. </p>
+<p>Initializes a connection to the database. </p>
+
+</div>
+</div>
+<a id="a84d399a2ad58d69daab9b05330e1316d" name="a84d399a2ad58d69daab9b05330e1316d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84d399a2ad58d69daab9b05330e1316d">&#9670;&#160;</a></span>~Database()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Database::~Database </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+<p>Closes the database connection if it's open. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa7914e3782e8cf18bfd1ea531f57e249" name="aa7914e3782e8cf18bfd1ea531f57e249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7914e3782e8cf18bfd1ea531f57e249">&#9670;&#160;</a></span>addTicketToDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Database::addTicketToDatabase </td>
+          <td>(</td>
+          <td class="paramtype">const Ticket &amp;</td>          <td class="paramname"><span class="paramname"><em>ticket</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a ticket to the Tickets table in the database. </p>
+<p>This method inserts a new ticket entry into the Tickets table.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ticket</td><td>The ticket object to be added.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the ticket was successfully added, otherwise false. </dd></dl>
+
+</div>
+</div>
+<a id="a4aabe56b6229be499e11690d11465365" name="a4aabe56b6229be499e11690d11465365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aabe56b6229be499e11690d11465365">&#9670;&#160;</a></span>connectToDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Database::connectToDB </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Connects to the PostgreSQL database. </p>
+<p>This method attempts to establish a connection to the PostgreSQL database.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the connection was successful, otherwise false. </dd></dl>
+
+</div>
+</div>
+<a id="aa1efe245b576bb89b95cf05ff2146130" name="aa1efe245b576bb89b95cf05ff2146130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1efe245b576bb89b95cf05ff2146130">&#9670;&#160;</a></span>getPassengerIdFromComboBoxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Database::getPassengerIdFromComboBoxes </td>
+          <td>(</td>
+          <td class="paramtype">QComboBox *</td>          <td class="paramname"><span class="paramname"><em>nameComboBox</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QComboBox *</td>          <td class="paramname"><span class="paramname"><em>lastNameComboBox</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the passenger ID from the selected name and last name from combo boxes. </p>
+<p>This method searches the Passengers table using the selected first name and last name to retrieve the corresponding passenger ID.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nameComboBox</td><td>The combo box containing the first names. </td></tr>
+    <tr><td class="paramname">lastNameComboBox</td><td>The combo box containing the last names.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The ID of the selected passenger, or -1 if not found or if selection is incomplete. </dd></dl>
+
+</div>
+</div>
+<a id="af32f5800b77f4ed73a775f9330b15959" name="af32f5800b77f4ed73a775f9330b15959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af32f5800b77f4ed73a775f9330b15959">&#9670;&#160;</a></span>loadComboBoxData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Database::loadComboBoxData </td>
+          <td>(</td>
+          <td class="paramtype">QComboBox *</td>          <td class="paramname"><span class="paramname"><em>comboBox</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>table</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>column</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads data into a combo box from a specified table and column. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comboBox</td><td>The combo box to populate. </td></tr>
+    <tr><td class="paramname">table</td><td>The name of the table to fetch data from. </td></tr>
+    <tr><td class="paramname">column</td><td>The column name to fetch data for.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the data was loaded successfully, otherwise false. </dd></dl>
+
+</div>
+</div>
+<a id="a4134ad60237818b09cee4941fb3b0704" name="a4134ad60237818b09cee4941fb3b0704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4134ad60237818b09cee4941fb3b0704">&#9670;&#160;</a></span>selectData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::selectData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects all data from the Passengers table and outputs it to the debug console. </p>
+<p>This method retrieves all the passengers' data (id, first name, last name) from the database and prints them for debugging purposes. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aea64d7d99483faec8f049cdd817bb693" name="aea64d7d99483faec8f049cdd817bb693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea64d7d99483faec8f049cdd817bb693">&#9670;&#160;</a></span>db</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSqlDatabase Database::db</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> connection instance. </p>
 
 </div>
 </div>

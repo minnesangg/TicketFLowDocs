@@ -111,7 +111,7 @@ $(function(){initNavTree('classMainWindow.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class represents the main window of the application. It provides the user interface for the main functionality of the application. Here are the buttons for navigating the application:  
+<p>The <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class represents the main window of the application. It provides the user interface for interacting with the main functionality of the application.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>&gt;</code></p>
@@ -125,32 +125,43 @@ Inheritance diagram for MainWindow:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a996c5a2b6f77944776856f08ec30858d" id="r_a996c5a2b6f77944776856f08ec30858d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996c5a2b6f77944776856f08ec30858d">MainWindow</a> (QWidget *parent=nullptr)</td></tr>
-<tr class="memdesc:a996c5a2b6f77944776856f08ec30858d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class.  <br /></td></tr>
+<tr class="memdesc:a996c5a2b6f77944776856f08ec30858d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class. Initializes the user interface and sets up the layout.  <br /></td></tr>
 <tr class="separator:a996c5a2b6f77944776856f08ec30858d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae98d00a93bc118200eeef9f9bba1dba7" id="r_ae98d00a93bc118200eeef9f9bba1dba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a> ()</td></tr>
-<tr class="memdesc:ae98d00a93bc118200eeef9f9bba1dba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class.  <br /></td></tr>
+<tr class="memdesc:ae98d00a93bc118200eeef9f9bba1dba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class. Cleans up resources used by the main window.  <br /></td></tr>
 <tr class="separator:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:afcbbbc80001065310d2cd6221c5be55c" id="r_afcbbbc80001065310d2cd6221c5be55c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbbbc80001065310d2cd6221c5be55c">on_exitButton_clicked</a> ()</td></tr>
-<tr class="memdesc:afcbbbc80001065310d2cd6221c5be55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit Button. When clicked, it asks the user if they are sure they want to close the program. If they confirm, the program is closed.  <br /></td></tr>
+<tr class="memdesc:afcbbbc80001065310d2cd6221c5be55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot for handling the exit button click event. Prompts the user for confirmation before closing the program.  <br /></td></tr>
 <tr class="separator:afcbbbc80001065310d2cd6221c5be55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1dc04fa2c808582673e222c68f13169" id="r_ad1dc04fa2c808582673e222c68f13169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1dc04fa2c808582673e222c68f13169">on_manageButton_clicked</a> ()</td></tr>
+<tr class="memdesc:ad1dc04fa2c808582673e222c68f13169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot for handling the manage button click event. Opens the management window for handling CRUD operations on applications.  <br /></td></tr>
+<tr class="separator:ad1dc04fa2c808582673e222c68f13169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a35466a70ed47252a0191168126a352a5" id="r_a35466a70ed47252a0191168126a352a5"><td class="memItemLeft" align="right" valign="top">Ui::MainWindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35466a70ed47252a0191168126a352a5">ui</a></td></tr>
 <tr class="memdesc:a35466a70ed47252a0191168126a352a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the user interface of the main window.  <br /></td></tr>
 <tr class="separator:a35466a70ed47252a0191168126a352a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9552571fab55c373ecd3a5e146fcf644" id="r_a9552571fab55c373ecd3a5e146fcf644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDatabase.html">Database</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9552571fab55c373ecd3a5e146fcf644">db</a></td></tr>
+<tr class="memdesc:a9552571fab55c373ecd3a5e146fcf644"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> instance for managing interactions with the database.  <br /></td></tr>
+<tr class="separator:a9552571fab55c373ecd3a5e146fcf644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a54dc084d2fa4e41d3160f75a22233" id="r_a96a54dc084d2fa4e41d3160f75a22233"><td class="memItemLeft" align="right" valign="top">Manager&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a54dc084d2fa4e41d3160f75a22233">manager</a></td></tr>
+<tr class="memdesc:a96a54dc084d2fa4e41d3160f75a22233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manager instance for handling application-specific logic.  <br /></td></tr>
+<tr class="separator:a96a54dc084d2fa4e41d3160f75a22233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class represents the main window of the application. It provides the user interface for the main functionality of the application. Here are the buttons for navigating the application: </p>
-<ol type="1">
-<li>Go to the CRUD window (manage applications).</li>
-<li>Go to the search window (search applications by category, such as airports, airlines, etc.).</li>
-<li>Open application settings (language, theme, and other settings).</li>
-<li>Exit the application. </li>
-</ol>
+<div class="textblock"><p>The <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class represents the main window of the application. It provides the user interface for interacting with the main functionality of the application. </p>
+<p>It includes the following actions:</p><ul>
+<li>Exit the application with a confirmation prompt.</li>
+<li>Open the manage window for CRUD operations on applications.</li>
+</ul>
+<p>Slots:</p><ul>
+<li><code><a class="el" href="#afcbbbc80001065310d2cd6221c5be55c" title="Slot for handling the exit button click event. Prompts the user for confirmation before closing the p...">on_exitButton_clicked()</a></code>: Handles the click event of the exit button, asking for confirmation to close the application.</li>
+<li><code><a class="el" href="#ad1dc04fa2c808582673e222c68f13169" title="Slot for handling the manage button click event. Opens the management window for handling CRUD operat...">on_manageButton_clicked()</a></code>: Opens the manage window for managing ticket applications. </li>
+</ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a996c5a2b6f77944776856f08ec30858d" name="a996c5a2b6f77944776856f08ec30858d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a996c5a2b6f77944776856f08ec30858d">&#9670;&#160;</a></span>MainWindow()</h2>
@@ -167,7 +178,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class. </p>
+<p>Constructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class. Initializes the user interface and sets up the layout. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">parent</td><td>The parent widget of this main window. </td></tr>
@@ -192,7 +203,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class. </p>
+<p>Destructor for the <a class="el" href="classMainWindow.html" title="The MainWindow class represents the main window of the application. It provides the user interface fo...">MainWindow</a> class. Cleans up resources used by the main window. </p>
 
 </div>
 </div>
@@ -220,11 +231,86 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Exit Button. When clicked, it asks the user if they are sure they want to close the program. If they confirm, the program is closed. </p>
+<p>Slot for handling the exit button click event. Prompts the user for confirmation before closing the program. </p>
+
+</div>
+</div>
+<a id="ad1dc04fa2c808582673e222c68f13169" name="ad1dc04fa2c808582673e222c68f13169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1dc04fa2c808582673e222c68f13169">&#9670;&#160;</a></span>on_manageButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_manageButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slot for handling the manage button click event. Opens the management window for handling CRUD operations on applications. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9552571fab55c373ecd3a5e146fcf644" name="a9552571fab55c373ecd3a5e146fcf644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9552571fab55c373ecd3a5e146fcf644">&#9670;&#160;</a></span>db</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classDatabase.html">Database</a> MainWindow::db</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classDatabase.html" title="Database schema for airline ticket management.">Database</a> instance for managing interactions with the database. </p>
+
+</div>
+</div>
+<a id="a96a54dc084d2fa4e41d3160f75a22233" name="a96a54dc084d2fa4e41d3160f75a22233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a54dc084d2fa4e41d3160f75a22233">&#9670;&#160;</a></span>manager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Manager MainWindow::manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Manager instance for handling application-specific logic. </p>
+
+</div>
+</div>
 <a id="a35466a70ed47252a0191168126a352a5" name="a35466a70ed47252a0191168126a352a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35466a70ed47252a0191168126a352a5">&#9670;&#160;</a></span>ui</h2>
 
