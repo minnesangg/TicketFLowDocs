@@ -9,6 +9,8 @@ var files_dup =
     [ "mainwindow.h", "mainwindow_8h.html", "mainwindow_8h" ],
     [ "manager.cpp", "manager_8cpp.html", null ],
     [ "manager.h", "manager_8h.html", "manager_8h" ],
+    [ "plane.cpp", "plane_8cpp.html", null ],
+    [ "plane.h", "plane_8h.html", "plane_8h" ],
     [ "ticket.cpp", "ticket_8cpp.html", null ],
     [ "ticket.h", "ticket_8h.html", "ticket_8h" ]
 ];

@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "Database", "classDatabase.html", null ],
+    [ "Plane", "classPlane.html", null ],
     [ "QDialog", null, [
       [ "Login", "classLogin.html", null ],
       [ "Manager", "classManager.html", null ]

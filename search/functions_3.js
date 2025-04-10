@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['getpassengeridfromcomboboxes_0',['getPassengerIdFromComboBoxes',['../classDatabase.html#aa1efe245b576bb89b95cf05ff2146130',1,'Database']]],
-  ['getpasswordhash_1',['getPasswordHash',['../classLogin.html#a09736f530d71fa883757c026d45df2d6',1,'Login']]]
+  ['database_0',['Database',['../classDatabase.html#a4703c80e6969d33565ea340f768fdadf',1,'Database']]],
+  ['deleteplanefromdatabase_1',['deletePlaneFromDatabase',['../classDatabase.html#ab966ac92b373c30f489c2613b8f8cec6',1,'Database']]],
+  ['deleteticketfromdatabase_2',['deleteTicketFromDatabase',['../classDatabase.html#aa3711b6dee7af09efa2f903d248378ac',1,'Database']]]
 ];

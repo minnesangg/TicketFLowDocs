@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['changepage_0',['changePage',['../classManager.html#a3f9d3974c69fb842ee2f034731c3ac16',1,'Manager']]],
-  ['checkpassword_1',['checkPassword',['../classLogin.html#ae5dde3cc05e0a5d9cb8d6532c36e9374',1,'Login']]],
-  ['connecttodb_2',['connectToDB',['../classDatabase.html#a4aabe56b6229be499e11690d11465365',1,'Database']]]
+  ['bindqueryforplanes_0',['bindQueryForPlanes',['../classDatabase.html#af4a6f4f46becf00e62b454081f843817',1,'Database']]],
+  ['bindqueryfortickets_1',['bindQueryForTickets',['../classDatabase.html#a3e530185452023581678bfd3eaaf6d31',1,'Database']]]
 ];

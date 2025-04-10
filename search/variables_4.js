@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['seatnumber_0',['seatNumber',['../classTicket.html#a126db4af70533f6df0699f760549bf82',1,'Ticket']]],
-  ['stackedwidget_1',['stackedWidget',['../classLogin.html#a27c1063cc731cd71ca04b2a2ef17a7ce',1,'Login']]]
+  ['passengerid_0',['passengerID',['../classTicket.html#a5ee60cff08f39739a7ea1277633536e1',1,'Ticket']]],
+  ['plane_1',['plane',['../classManager.html#a98bdec3ad2d9b5fbe9dda4f68a26bc3a',1,'Manager']]],
+  ['planeid_2',['planeID',['../classTicket.html#aa3c05acc92a5c3ddb389df6357584fcc',1,'Ticket']]],
+  ['price_3',['price',['../classTicket.html#abd4b8993ceac8f421931181d1060e18d',1,'Ticket']]]
 ];

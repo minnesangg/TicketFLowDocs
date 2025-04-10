@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ticket_0',['ticket',['../classManager.html#a685cc5ef76ea4869fa120d8dd2939351',1,'Manager']]],
-  ['ticketid_1',['ticketID',['../classTicket.html#af89a9cf884e4ed17774e2904d87c8725',1,'Ticket']]],
-  ['tickets_2',['tickets',['../classManager.html#a75411a7d5e0733d64f7b4290d3a81b1c',1,'Manager']]]
+  ['seatnumber_0',['seatNumber',['../classTicket.html#a4094860e48306484d7dd771d12830512',1,'Ticket']]],
+  ['stackedwidget_1',['stackedWidget',['../classLogin.html#a27c1063cc731cd71ca04b2a2ef17a7ce',1,'Login']]]
 ];

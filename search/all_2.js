@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['database_0',['Database',['../classDatabase.html',1,'Database'],['../classDatabase.html#a4703c80e6969d33565ea340f768fdadf',1,'Database::Database()']]],
-  ['database_2ecpp_1',['database.cpp',['../database_8cpp.html',1,'']]],
-  ['database_2eh_2',['database.h',['../database_8h.html',1,'']]],
-  ['db_3',['db',['../classMainWindow.html#a9552571fab55c373ecd3a5e146fcf644',1,'MainWindow::db'],['../classDatabase.html#aea64d7d99483faec8f049cdd817bb693',1,'Database::db'],['../classManager.html#a75d76442c3dfe9a6e0773e8fb45ac89a',1,'Manager::db']]],
-  ['departurecity_4',['departureCity',['../classTicket.html#a6f635f21a6479b5119573b39f86df41d',1,'Ticket']]],
-  ['departuretime_5',['departureTime',['../classTicket.html#a0f86018c67289a59e83a1ed9f7532b05',1,'Ticket']]]
+  ['capacity_0',['capacity',['../classPlane.html#a44ee7edc9d16472d217d16c0832fe7c3',1,'Plane']]],
+  ['changepage_1',['changePage',['../classManager.html#a3f9d3974c69fb842ee2f034731c3ac16',1,'Manager']]],
+  ['checkpassword_2',['checkPassword',['../classLogin.html#ae5dde3cc05e0a5d9cb8d6532c36e9374',1,'Login']]],
+  ['clearstatusbar_3',['clearStatusBar',['../classManager.html#ae32b54ff4805712c184af8b75df6c3cf',1,'Manager']]],
+  ['connecttodb_4',['connectToDB',['../classDatabase.html#a4aabe56b6229be499e11690d11465365',1,'Database']]]
 ];
