@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad0df222c4207b7a46e772c58a579d443" id="r_ad0df222c4207b7a46e772c58a579d443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0df222c4207b7a46e772c58a579d443">setCapacity</a> (int <a class="el" href="#a44ee7edc9d16472d217d16c0832fe7c3">capacity</a>)</td></tr>
 <tr class="memdesc:ad0df222c4207b7a46e772c58a579d443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the capacity of the plane.  <br /></td></tr>
 <tr class="separator:ad0df222c4207b7a46e772c58a579d443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc34c8cfba34985e452ea8fb4cf96a0" id="r_a5dc34c8cfba34985e452ea8fb4cf96a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dc34c8cfba34985e452ea8fb4cf96a0">setPlaneID</a> (int <a class="el" href="#a5dba874a2874c1f6e632bcc1e0ab3533">ID</a>)</td></tr>
+<tr class="memdesc:a5dc34c8cfba34985e452ea8fb4cf96a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the unique ID of the plane.  <br /></td></tr>
+<tr class="separator:a5dc34c8cfba34985e452ea8fb4cf96a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac454bd8e3e7dcf51c4b133b36f39cbe0" id="r_ac454bd8e3e7dcf51c4b133b36f39cbe0"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac454bd8e3e7dcf51c4b133b36f39cbe0">getModel</a> () const</td></tr>
 <tr class="memdesc:ac454bd8e3e7dcf51c4b133b36f39cbe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the model of the plane.  <br /></td></tr>
 <tr class="separator:ac454bd8e3e7dcf51c4b133b36f39cbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a728dcd76ef4c8f4a2baebdbb6b521549" id="r_a728dcd76ef4c8f4a2baebdbb6b521549"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728dcd76ef4c8f4a2baebdbb6b521549">getCapacity</a> () const</td></tr>
 <tr class="memdesc:a728dcd76ef4c8f4a2baebdbb6b521549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the capacity of the plane.  <br /></td></tr>
 <tr class="separator:a728dcd76ef4c8f4a2baebdbb6b521549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abca7e9b566da0e6c5e547b3f7c1f0cc4" id="r_abca7e9b566da0e6c5e547b3f7c1f0cc4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abca7e9b566da0e6c5e547b3f7c1f0cc4">getPlaneID</a> () const</td></tr>
+<tr class="memdesc:abca7e9b566da0e6c5e547b3f7c1f0cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the unique ID of the plane.  <br /></td></tr>
+<tr class="separator:abca7e9b566da0e6c5e547b3f7c1f0cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -147,6 +153,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aac76bea49f671e1282ab1447e021a31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44ee7edc9d16472d217d16c0832fe7c3" id="r_a44ee7edc9d16472d217d16c0832fe7c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ee7edc9d16472d217d16c0832fe7c3">capacity</a></td></tr>
 <tr class="separator:a44ee7edc9d16472d217d16c0832fe7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dba874a2874c1f6e632bcc1e0ab3533" id="r_a5dba874a2874c1f6e632bcc1e0ab3533"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dba874a2874c1f6e632bcc1e0ab3533">ID</a></td></tr>
+<tr class="separator:a5dba874a2874c1f6e632bcc1e0ab3533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file defines the <a class="el" href="classPlane.html" title="This file defines the Plane class, which represents an airplane in the system.">Plane</a> class, which represents an airplane in the system. </p>
@@ -160,14 +168,17 @@ Private Attributes</h2></td></tr>
 <li><code><a class="el" href="#a4cc667cb7f863aa3473be7989bb3388d" title="Sets the model of the plane.">setModel(QString model)</a></code>: Sets the model of the airplane (e.g., "Boeing 737").</li>
 <li><code><a class="el" href="#a7334120d667e974b1ffe027feeb85627" title="Sets the airline operating the plane.">setAirline(QString airline)</a></code>: Sets the airline operating the airplane (e.g., "American Airlines").</li>
 <li><code><a class="el" href="#ad0df222c4207b7a46e772c58a579d443" title="Sets the capacity of the plane.">setCapacity(int capacity)</a></code>: Sets the seating capacity of the airplane.</li>
+<li><code><a class="el" href="#a5dc34c8cfba34985e452ea8fb4cf96a0" title="Sets the unique ID of the plane.">setPlaneID(int ID)</a></code>: Sets the unique ID of the plane.</li>
 <li><code><a class="el" href="#ac454bd8e3e7dcf51c4b133b36f39cbe0" title="Retrieves the model of the plane.">getModel()</a></code>: Gets the model of the airplane.</li>
 <li><code><a class="el" href="#a982814a5c8532637d166ca586f5eef9e" title="Retrieves the airline operating the plane.">getAirline()</a></code>: Gets the airline operating the airplane.</li>
 <li><code><a class="el" href="#a728dcd76ef4c8f4a2baebdbb6b521549" title="Retrieves the capacity of the plane.">getCapacity()</a></code>: Gets the seating capacity of the airplane.</li>
+<li><code><a class="el" href="#abca7e9b566da0e6c5e547b3f7c1f0cc4" title="Gets the unique ID of the plane.">getPlaneID()</a></code>: Gets the unique ID of the airplane.</li>
 </ul>
 <p>Attributes:</p><ul>
 <li><code>model</code>: The model of the airplane (e.g., "Boeing 737").</li>
 <li><code>airline</code>: The airline operating the airplane (e.g., "American Airlines").</li>
-<li><code>capacity</code>: The seating capacity of the airplane, representing the maximum number of passengers it can carry. </li>
+<li><code>capacity</code>: The seating capacity of the airplane, representing the maximum number of passengers it can carry.</li>
+<li><code>ID</code>: The unique identifier for the plane. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acac0d9c003e0ab10d07b146c3566a0c7" name="acac0d9c003e0ab10d07b146c3566a0c7"></a>
@@ -251,6 +262,27 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abca7e9b566da0e6c5e547b3f7c1f0cc4" name="abca7e9b566da0e6c5e547b3f7c1f0cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abca7e9b566da0e6c5e547b3f7c1f0cc4">&#9670;&#160;</a></span>getPlaneID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Plane::getPlaneID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the unique ID of the plane. </p>
+<p>This method returns the unique identifier (ID) of the plane object. The ID is used to identify the plane in the database or within the program.</p>
+<dl class="section return"><dt>Returns</dt><dd>int The unique ID of the plane. </dd></dl>
+
+</div>
+</div>
 <a id="a7334120d667e974b1ffe027feeb85627" name="a7334120d667e974b1ffe027feeb85627"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7334120d667e974b1ffe027feeb85627">&#9670;&#160;</a></span>setAirline()</h2>
 
@@ -326,6 +358,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5dc34c8cfba34985e452ea8fb4cf96a0" name="a5dc34c8cfba34985e452ea8fb4cf96a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc34c8cfba34985e452ea8fb4cf96a0">&#9670;&#160;</a></span>setPlaneID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Plane::setPlaneID </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the unique ID of the plane. </p>
+<p>This method sets the unique identifier (ID) for the plane object. The ID is used to identify the plane in the database or within the program.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID</td><td>The unique ID to assign to the plane. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aac76bea49f671e1282ab1447e021a31d" name="aac76bea49f671e1282ab1447e021a31d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac76bea49f671e1282ab1447e021a31d">&#9670;&#160;</a></span>airline</h2>
@@ -361,6 +419,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int Plane::capacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5dba874a2874c1f6e632bcc1e0ab3533" name="a5dba874a2874c1f6e632bcc1e0ab3533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dba874a2874c1f6e632bcc1e0ab3533">&#9670;&#160;</a></span>ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Plane::ID</td>
         </tr>
       </table>
   </td>

@@ -10,7 +10,7 @@ var searchData=
   ['getpassengerid_7',['getPassengerID',['../classTicket.html#a48c943a6d290987b476a99b67d01f1f4',1,'Ticket']]],
   ['getpassengeridfromcomboboxes_8',['getPassengerIdFromComboBoxes',['../classDatabase.html#aa1efe245b576bb89b95cf05ff2146130',1,'Database']]],
   ['getpasswordhash_9',['getPasswordHash',['../classLogin.html#a09736f530d71fa883757c026d45df2d6',1,'Login']]],
-  ['getplaneid_10',['getPlaneID',['../classTicket.html#a68487040aebb16859227120269a75279',1,'Ticket']]],
+  ['getplaneid_10',['getPlaneID',['../classTicket.html#a68487040aebb16859227120269a75279',1,'Ticket::getPlaneID()'],['../classPlane.html#abca7e9b566da0e6c5e547b3f7c1f0cc4',1,'Plane::getPlaneID()']]],
   ['getprice_11',['getPrice',['../classTicket.html#a576de10ecaa698250d83c2b061d6157a',1,'Ticket']]],
   ['getseatnumber_12',['getSeatNumber',['../classTicket.html#a31582cedec64d1028391b07ffb68007c',1,'Ticket']]]
 ];
