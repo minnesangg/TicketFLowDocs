@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['seatnumber_0',['seatNumber',['../classTicket.html#a4094860e48306484d7dd771d12830512',1,'Ticket']]],
-  ['stackedwidget_1',['stackedWidget',['../classLogin.html#a27c1063cc731cd71ca04b2a2ef17a7ce',1,'Login']]]
+  ['id_0',['ID',['../classPlane.html#a5dba874a2874c1f6e632bcc1e0ab3533',1,'Plane::ID'],['../classPassenger.html#aff6b6edd36dba4165b00f94d7dbcdd63',1,'Passenger::ID']]]
 ];

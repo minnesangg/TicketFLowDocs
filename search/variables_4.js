@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['manager_0',['manager',['../classMainWindow.html#a96a54dc084d2fa4e41d3160f75a22233',1,'MainWindow']]],
-  ['model_1',['model',['../classPlane.html#ac705330e7276d549c8a11485bf65cbdf',1,'Plane']]]
+  ['email_0',['email',['../classPassenger.html#a71d2d85cddfea5a1f92434337f31cfd8',1,'Passenger']]]
 ];
