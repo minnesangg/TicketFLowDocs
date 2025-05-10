@@ -173,7 +173,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2c7eb80d36f3ded8f26f14d091bd9b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a passenger has associated tickets.  <br /></td></tr>
 <tr class="separator:a2c7eb80d36f3ded8f26f14d091bd9b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0eb31350136281509d0ffcfbbd2a2eb" id="r_ac0eb31350136281509d0ffcfbbd2a2eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0eb31350136281509d0ffcfbbd2a2eb">reconnectDatabase</a> ()</td></tr>
+<tr class="memdesc:ac0eb31350136281509d0ffcfbbd2a2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconnects to the database.  <br /></td></tr>
 <tr class="separator:ac0eb31350136281509d0ffcfbbd2a2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5927873feffdb1c3659321c0ec40b3e4" id="r_a5927873feffdb1c3659321c0ec40b3e4"><td class="memItemLeft" align="right" valign="top">QSqlQueryModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5927873feffdb1c3659321c0ec40b3e4">getTicketsModel</a> ()</td></tr>
+<tr class="memdesc:a5927873feffdb1c3659321c0ec40b3e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a model for the Tickets table, including passenger and plane information.  <br /></td></tr>
+<tr class="separator:a5927873feffdb1c3659321c0ec40b3e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -636,6 +640,27 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5927873feffdb1c3659321c0ec40b3e4" name="a5927873feffdb1c3659321c0ec40b3e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5927873feffdb1c3659321c0ec40b3e4">&#9670;&#160;</a></span>getTicketsModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSqlQueryModel * Database::getTicketsModel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a model for the Tickets table, including passenger and plane information. </p>
+<p>This method creates and returns a QSqlQueryModel containing data from the Tickets, Passengers, and Planes tables. It combines information such as passenger name, plane model, departure/arrival cities, times, seat number, and price. The model is populated using an SQL query with a JOIN between the three tables.</p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to a QSqlQueryModel containing the ticket information, or nullptr if an error occurs. If an error occurs while executing the query, the model will be deleted and nullptr will be returned. </dd></dl>
+
+</div>
+</div>
 <a id="a2c7eb80d36f3ded8f26f14d091bd9b41" name="a2c7eb80d36f3ded8f26f14d091bd9b41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c7eb80d36f3ded8f26f14d091bd9b41">&#9670;&#160;</a></span>hasTicketsForPassenger()</h2>
 
@@ -741,6 +766,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reconnects to the database. </p>
+<p>This method closes the current database connection if it's open and then reopens it. It can be used when you need to refresh the database connection or after a connection failure. </p>
 
 </div>
 </div>

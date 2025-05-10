@@ -22,5 +22,9 @@ var searchData=
   ['setprice_19',['setPrice',['../classTicket.html#a55219ce62ffad91768da0c8e6b0ebe8d',1,'Ticket']]],
   ['setseatnumber_20',['setSeatNumber',['../classTicket.html#ab188346c4dc8aa24c299ce8b3249e100',1,'Ticket']]],
   ['setticketoptions_21',['setTicketOptions',['../classManager.html#a38609c6138ab3377c0f399a1923ed468',1,'Manager']]],
-  ['stackedwidget_22',['stackedWidget',['../classLogin.html#a27c1063cc731cd71ca04b2a2ef17a7ce',1,'Login']]]
+  ['setupsearch_22',['setupSearch',['../classDatabaseViewer.html#a610bce832e66a2e320c0e961e98cc938',1,'DatabaseViewer']]],
+  ['setuptableforpassengers_23',['setupTableForPassengers',['../classDatabaseViewer.html#a6345d3e43ad9766ab5b352d963099672',1,'DatabaseViewer']]],
+  ['setuptableforplanes_24',['setupTableForPlanes',['../classDatabaseViewer.html#a034108eb8617f4ca1ed0d4e4f9a7aafc',1,'DatabaseViewer']]],
+  ['setuptablefortickets_25',['setupTableForTickets',['../classDatabaseViewer.html#a17536ddf2a00d1de5253c7f6c8676f4d',1,'DatabaseViewer']]],
+  ['stackedwidget_26',['stackedWidget',['../classLogin.html#a27c1063cc731cd71ca04b2a2ef17a7ce',1,'Login']]]
 ];

@@ -4,7 +4,7 @@ var indexSectionsWithContent =
   1: "dlmpt",
   2: "u",
   3: "dlmpt",
-  4: "abcdghilmoprstv~",
+  4: "abcdfghilmoprstv~",
   5: "abcdefilmpstu"
 };
 

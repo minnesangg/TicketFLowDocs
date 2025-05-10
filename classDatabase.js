@@ -15,6 +15,7 @@ var classDatabase =
     [ "deleteTicketsForPassenger", "classDatabase.html#a92b084db249763da9840f67259177a1c", null ],
     [ "deleteTicketsForPlane", "classDatabase.html#a1294831d1d8c8e2e56d232afb59661fd", null ],
     [ "getPassengerIdFromComboBoxes", "classDatabase.html#aa1efe245b576bb89b95cf05ff2146130", null ],
+    [ "getTicketsModel", "classDatabase.html#a5927873feffdb1c3659321c0ec40b3e4", null ],
     [ "hasTicketsForPassenger", "classDatabase.html#a2c7eb80d36f3ded8f26f14d091bd9b41", null ],
     [ "hasTicketsForPlane", "classDatabase.html#a715faf9109c8527e023e8cea46eb6be6", null ],
     [ "loadComboBoxData", "classDatabase.html#af32f5800b77f4ed73a775f9330b15959", null ],

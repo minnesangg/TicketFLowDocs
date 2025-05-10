@@ -17,5 +17,6 @@ var searchData=
   ['getphonenumber_14',['getPhoneNumber',['../classPassenger.html#af2113efaa5cfbae0dc178e5c197084ce',1,'Passenger']]],
   ['getplaneid_15',['getPlaneID',['../classTicket.html#a68487040aebb16859227120269a75279',1,'Ticket::getPlaneID()'],['../classPlane.html#abca7e9b566da0e6c5e547b3f7c1f0cc4',1,'Plane::getPlaneID()']]],
   ['getprice_16',['getPrice',['../classTicket.html#a576de10ecaa698250d83c2b061d6157a',1,'Ticket']]],
-  ['getseatnumber_17',['getSeatNumber',['../classTicket.html#a31582cedec64d1028391b07ffb68007c',1,'Ticket']]]
+  ['getseatnumber_17',['getSeatNumber',['../classTicket.html#a31582cedec64d1028391b07ffb68007c',1,'Ticket']]],
+  ['getticketsmodel_18',['getTicketsModel',['../classDatabase.html#a5927873feffdb1c3659321c0ec40b3e4',1,'Database']]]
 ];
